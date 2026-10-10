@@ -1,0 +1,21 @@
+# MATLAB
+*.asv
+*.m~
+slprj/
+*.slxc
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Large intermediate outputs (regenerate via code/)
+*.tmp
+*.log

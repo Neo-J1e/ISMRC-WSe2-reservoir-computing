@@ -1,0 +1,2 @@
+dataset,n_masks,n_total_samples,mean_rmse_V,sd_rmse_V,mean_nrmse_by_range,sd_nrmse_by_range,mean_mae_V,sd_mae_V,mean_bias_V,sd_bias_V,mean_pearson_r,sd_pearson_r,mean_prediction_r_squared,sd_prediction_r_squared
+classification_20241222,14,112000,0.213018418514499,0.0595002712218294,0.214607673138527,0.0422802866439322,0.187187218002231,0.0586088109306933,-0.145691903651209,0.0920395008383498,0.707848490526267,0.112675631670309,-0.365368127865639,0.643467308188287

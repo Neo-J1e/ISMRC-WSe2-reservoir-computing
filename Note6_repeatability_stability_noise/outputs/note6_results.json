@@ -1,0 +1,158 @@
+{
+  "five_device": {
+    "devices": [
+      {
+        "device": "Device 1",
+        "internal_id": "C2D1",
+        "laser_current_mA": 60,
+        "span_mV": 937.78958822,
+        "sd_median_mV": 10.91963133816481,
+        "sd_over_span_pct": 1.1644009994705902,
+        "pooled_sd_mV": 15.52101994151504,
+        "friedman_q": 74.7176470588235,
+        "kendall_w": 0.9962352941176467,
+        "permutation_p": 1e-05,
+        "overlap_pairs": 6,
+        "cv_correct": 59,
+        "cv_total": 80
+      },
+      {
+        "device": "Device 2",
+        "internal_id": "C2D4",
+        "laser_current_mA": 60,
+        "span_mV": 698.43808562,
+        "sd_median_mV": 13.920289570152029,
+        "sd_over_span_pct": 1.9930599228126364,
+        "pooled_sd_mV": 20.019777246145985,
+        "friedman_q": 74.66470588235296,
+        "kendall_w": 0.9955294117647061,
+        "permutation_p": 1e-05,
+        "overlap_pairs": 6,
+        "cv_correct": 59,
+        "cv_total": 80
+      },
+      {
+        "device": "Device 3",
+        "internal_id": "C4D1",
+        "laser_current_mA": 40,
+        "span_mV": 838.20360382,
+        "sd_median_mV": 15.484046442442095,
+        "sd_over_span_pct": 1.8472894141561356,
+        "pooled_sd_mV": 25.892162514952325,
+        "friedman_q": 74.43529411764706,
+        "kendall_w": 0.9924705882352941,
+        "permutation_p": 1e-05,
+        "overlap_pairs": 10,
+        "cv_correct": 56,
+        "cv_total": 80
+      },
+      {
+        "device": "Device 4",
+        "internal_id": "C4D3",
+        "laser_current_mA": 35,
+        "span_mV": 462.98348854000005,
+        "sd_median_mV": 5.821867933335179,
+        "sd_over_span_pct": 1.2574677234590388,
+        "pooled_sd_mV": 8.635830445768736,
+        "friedman_q": 74.75294117647059,
+        "kendall_w": 0.9967058823529411,
+        "permutation_p": 1e-05,
+        "overlap_pairs": 5,
+        "cv_correct": 67,
+        "cv_total": 80
+      },
+      {
+        "device": "Device 5",
+        "internal_id": "C4D4",
+        "laser_current_mA": 35,
+        "span_mV": 475.47762798,
+        "sd_median_mV": 4.627573429820394,
+        "sd_over_span_pct": 0.9732473532939899,
+        "pooled_sd_mV": 5.343737714686195,
+        "friedman_q": 74.84117647058821,
+        "kendall_w": 0.9978823529411761,
+        "permutation_p": 1e-05,
+        "overlap_pairs": 3,
+        "cv_correct": 72,
+        "cv_total": 80
+      }
+    ],
+    "pearson": {
+      "min": 0.6525367311794563,
+      "median": 0.8618219283045172,
+      "max": 0.9811973819304725
+    },
+    "cv_correct_total": 313,
+    "cv_total": 400,
+    "holm_p": [
+      5e-05,
+      5e-05,
+      5e-05,
+      5e-05,
+      5e-05
+    ]
+  },
+  "stability": {
+    "session": "masked_20240821",
+    "shifts_mV": [
+      1.3155514285714285,
+      1.5278485714285677,
+      1.7316999999999976,
+      1.5696028571428546,
+      2.21896,
+      2.4702971428571416,
+      1.5898114285714289
+    ],
+    "final_shift_mV": 1.5898114285714289,
+    "final_shift_sd_mV": 1.3717070822034232,
+    "separation_min_mV": 45.6532145054945,
+    "separation_max_mV": 47.264720439560435,
+    "mean_pairwise_separation_mV": 46.58262857142857
+  },
+  "parameter_variation": {
+    "dev4_0000": {
+      "A_mean_V": -0.17749373704103072,
+      "A_sd_mV": 2.0549228962147126,
+      "tau_mean_s": 0.49060129090010945,
+      "tau_sd_ms": 4.251194708600792,
+      "n_cycles": 5
+    },
+    "dev4_1111": {
+      "A_mean_V": 0.2948593278859605,
+      "A_sd_mV": 2.0401393454545693,
+      "tau_mean_s": 0.41820358690875514,
+      "tau_sd_ms": 14.149597021393639,
+      "n_cycles": 5
+    }
+  },
+  "noise": {
+    "classification_masked": {
+      "first_sigma": 0.001,
+      "first": 0.026273088500000003,
+      "last_sigma": 0.01,
+      "last": 0.20235339950000003,
+      "n_realizations": 20
+    },
+    "classification_fixedgate": {
+      "first_sigma": 0.001,
+      "first": 0.4524020535,
+      "last_sigma": 0.01,
+      "last": 0.5531884039999999,
+      "n_realizations": 20
+    },
+    "equalization_masked": {
+      "first_sigma": 0.001,
+      "first": 0.061975,
+      "last_sigma": 0.01,
+      "last": 0.07010000000000001,
+      "n_realizations": 20
+    },
+    "equalization_fixedgate": {
+      "first_sigma": 0.001,
+      "first": 0.113725,
+      "last_sigma": 0.01,
+      "last": 0.1879,
+      "n_realizations": 20
+    }
+  }
+}

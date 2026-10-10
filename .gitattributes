@@ -1,0 +1,20 @@
+# Line-ending policy.
+#
+# The raw acquisition files are evidence: they are checked against the
+# SHA-256 digests recorded in
+#   Note6_repeatability_stability_noise/data/raw_acquisition_D2DC2C/清单_SHA256.csv
+# so a checkout must reproduce their bytes exactly.  Forcing LF everywhere
+# stops Git from rewriting line endings on Windows, which would otherwise
+# change every file size and break every digest.
+#
+# `text=auto` still lets Git diff text files normally; `eol=lf` pins the
+# checked-out form.
+* text=auto eol=lf
+
+# Binary payloads: never touched.
+*.mat   binary
+*.npz   binary
+*.png   binary
+*.pdf   binary
+*.jpg   binary
+*.zip   binary

@@ -1,0 +1,2 @@
+state_step_s,activation_threshold_mA,input_offset_mA,input_scale_mA,switch_target_gain,switch_denominator,audit_random_seed
+0.2,40,37,6,3.33333333333333,0.3,20260907
